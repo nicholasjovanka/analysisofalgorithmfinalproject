@@ -72,8 +72,8 @@ class VoiceProcess:
                             if len(percentages) != 0:
                                 index_of_possible_command = np.argmax(percentages)
                                 print("This", percentages)
-                                print("The command to be executed is:" + " " + words[0])
-                                return words[0]
+                                print("The command to be executed is:" + " " + index_of_possible_command)
+                                return index_of_possible_command
 
 
 
